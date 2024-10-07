@@ -3,40 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dipson Kunwar's Page</title>
+    <title>Dipson Kunwar's Website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            line-height: 1.6;
         }
 
-        .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
             text-align: center;
         }
 
-        h1 {
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin: 40px 0;
+        }
+
+        h2 {
             color: #333;
+            font-size: 2em;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
         }
 
         p {
-            color: #666;
+            color: #555;
+            font-size: 1.1em;
+        }
+
+        ul {
+            list-style-type: square;
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
 <body>
+
+    <header>
+        <h1>Dipson Kunwar's Website</h1>
+    </header>
+
     <div class="container">
-        <h1>Hello, I am Dipson Kunwar</h1>
-        <p>I read in class nine.</p>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am Dipson Kunwar, and I read in class nine. I love learning new things, especially in the field of technology and science. I am always curious about how things work and enjoy exploring different subjects in school.</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+            <p>In my free time, I love doing various activities that keep me entertained and active. Here are some of my hobbies:</p>
+            <ul>
+                <li>Playing football</li>
+                <li>Reading books and comics</li>
+                <li>Coding and exploring new technologies</li>
+                <li>Watching movies and cartoons</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>My Education</h2>
+            <p>I am currently studying in class nine, and I am always excited to learn new subjects in school. I enjoy learning Mathematics, Science, and Computer Science the most. I also take part in extracurricular activities like debates and sports.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to reach out, feel free to contact me via:</p>
+            <ul>
+                <li>Email: dipson@example.com</li>
+                <li>Phone: +123456789</li>
+            </ul>
+        </section>
     </div>
+
+    <footer>
+        <p>© 2024 Dipson Kunwar. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
+
 
