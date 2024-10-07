@@ -3,6 +3,25 @@
 <head>
     <title>My Website</title>
     <style>
+.top-right-container {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            text-align: center;
+        }
+
+        .profile-image {
+            width: 15px; /* Adjust size as needed */
+            height: 15px;
+            border-radius: 50%; /* Makes the image circular */
+            object-fit: cover;
+        }
+
+        .name-text {
+            margin-top: 1px;
+            font-size: 1px;
+            font-weight: bold;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -73,6 +92,16 @@
     </style>
 </head>
 <body>
+
+ <div>
+        <!-- Your current content goes here -->
+    </div>
+
+    <!-- Image and name in the top right corner -->
+    <div class="top-right-container">
+        <img src="https://via.placeholder.com/150" alt="Profile Image" class="profile-image">
+        <div class="name-text">Dipson</div>
+    </div>
 
     <header>
         <h1>My Website</h1>
